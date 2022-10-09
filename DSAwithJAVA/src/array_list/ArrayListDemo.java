@@ -19,7 +19,7 @@ public class ArrayListDemo {
 //		To read values
 		System.out.println(list1.get(2));
 		
-//		Another option 
+
 		
 		
 		
