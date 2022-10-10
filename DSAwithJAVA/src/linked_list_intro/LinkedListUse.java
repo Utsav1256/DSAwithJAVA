@@ -23,7 +23,41 @@ public class LinkedListUse {
 		node1.next = node2;
 		System.out.println(node1.next);
 		
+		Node <Integer> node3 = new Node <Integer> (30);
+		
+		System.out.println(node3.data);
+		node2.next = node3;
+		
+		System.out.println(node2.next);
+		System.out.println(node3);
+		
+//		Node <Integer> head;  // this is just a reference it is not referring anything now, it is empty.
+		
+		Node <Integer> head = node1;
+		
+		
+		
+		
+//		Printing linked list
+//		while(head != null) {
+//			System.out.print(head.data + " ");
+////			System.out.println(head.next);
+//			head = head.next;
+//		}
 
+		
+		print(head);
+		print(head);
+//		head of print fn. is different from head of main function
+	}
+	
+	public static void print(Node <Integer> head) {
+		while(head != null) {
+			System.out.print(head.data + " ");
+//			System.out.println(head.next);
+			head = head.next;
+		}
+		System.out.println();
 	}
 
 }
