@@ -59,5 +59,9 @@ public class LinkedListUse {
 		}
 		System.out.println();
 	}
+	
+	
+	
+	
 
 }
