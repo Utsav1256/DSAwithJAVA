@@ -59,9 +59,10 @@ public class Taking_LinkedList_Input {
 			data = scan.nextInt();	
 		}
 		return head;
-		
-		
 	}
+//	Now it's time complexity is O(n)
+//	bcz. here for each node we are doing constant work
+	
  	public static void print(Node <Integer> head) {
  		
  		while(head != null) {
